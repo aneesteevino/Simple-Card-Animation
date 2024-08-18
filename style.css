@@ -1,0 +1,92 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 110vh;
+    width: 50vw;
+}
+
+.card {
+    height: 100px;
+    width: 300px;
+    background-color: #191c29;
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 5em;
+    color: rgb(58, 99, 250);
+    cursor: pointer;
+    font-family: cursive;
+    background-image: url(https://s1.zerochan.net/Mikasa.Ackerman.600.3909974.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.4s;
+}
+
+.card:hover {
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.UauL3vQSLYKpkC2Za6yCYwHaNK&pid=Api&P=0&h=220);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(88, 199, 250 / 100%);
+    transition: color 1s;
+    transition: 0.4s ease-in-out;
+}
+
+.card {
+    transition: background-image 0.4s ease-in-out, color 1s ease-in-out; */
+/* } */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-image: url(https://static.zerochan.net/Mikasa.Ackerman.full.2759870.jpg);
+    height: 80vh;
+    width: 340px;
+    border:1px solid white;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #191c29;
+    transition: 0.4s;
+    position: relative;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 5em;
+    color: rgb(58, 99, 250);
+    cursor: pointer;
+    
+}
+.card:hover {
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/062/256/827/large/desenhista-on-artstation-mikasa-ackerman-attack-on-titan.jpg?1682695306);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(88, 199, 250 / 100%);
+    transition: color 1s;
+    transition: 0.4s ease-in-out;
+}
